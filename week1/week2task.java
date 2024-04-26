@@ -1,7 +1,7 @@
 package week1;
 import java.util.Scanner;
 
-public class week2 {
+public class week2task {
     public static void main(String[] args) {
         // task1
         int variable = 10, bane = 18;
