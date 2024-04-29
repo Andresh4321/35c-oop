@@ -52,8 +52,70 @@ public class week3task {
             }else{System.out.println("consenent");}
 
             scan.close();
-
-
     }
+    /*Some Switch case Statements Questions:
+
+1. Write a Java program that takes a student's grade as input (A, B, C, D, or F) and converts it to the corresponding GPA value. Use a switch case statement to handle different grades.*/
+
+int gpa=3;
+System.out.println("ur gpa is");
+switch(gpa) {
+    case 1:
+        System.out.println("D");
+        break;
+    case 2:
+        System.out.println("C");
+        break;
+    case 3:
+        System.out.println("B");
+        break;
+    case 4:
+        System.out.println("A");
+        break;
+    default:
+    System.out.println("no gpa");
+        break;
+}
+Scanner scan1 = new Scanner(System.in);
+System.out.println("Enter two numbers:");
+int apple = scan1.nextInt();
+int banana = scan1.nextInt();
+System.out.println("Enter the operator (+, -, *, /):");
+String operator = scan1.next();
+
+switch (operator) {
+    case "*":
+        System.out.println("The result of multiplication is " + (apple * banana));
+        break;
+    case "+":
+        System.out.println("The result of addition is " + (apple + banana));
+        break;
+    case "-":
+        System.out.println("The result of subtraction is " + (apple - banana));
+        break;
+    case "/":
+        if (banana != 0) {
+            System.out.println("The result of division is " + (apple / (double) banana));
+        } else {
+            System.out.println("Cannot divide by zero!");
+        }
+        break;
+    default:
+        System.out.println("Invalid operator!");
+        break;
+}
+scan1.close();
 }
 }
+
+/* 
+3. Write a Java program that takes an integer input (1 to 12) representing a month and prints the corresponding season (e.g., 1-3: Winter, 4-6: Spring, 7-9: Summer, 10-12: Fall) using a switch case.
+*/
+
+
+
+/* 
+4. Implement a Java program that calculates the area of different shapes (circle, rectangle, square, triangle) based on the user's choice using a switch case.
+*/
+
+

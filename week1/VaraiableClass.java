@@ -27,7 +27,7 @@ public class VaraiableClass {
         char charVariable = 'c'; // single letter enclosed in single quston
         boolean intVariable= true; // small xase true/false      
       }
-    }
+    
     /*llegial actions*/
     // byte byteVariable = 20; // cannot redeclare a variable
     // byteVaariable= 30; // instead use reassignment

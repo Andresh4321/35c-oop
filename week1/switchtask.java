@@ -2,7 +2,7 @@ package week1;
 
 public class switchtask {
     public static void main(String[] args) {
-        int value=0;
+        int value=1;
         switch(value) {
             case 0:
                 System.out.println("sunday");
