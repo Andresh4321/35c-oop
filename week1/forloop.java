@@ -29,5 +29,14 @@ for(int outer = 0; outer < 2;outer ++){
     }
     System.out.println("outer");
 }
+/* print mul 1 to 5*/
+for(int numm= 1; numm <=5;numm ++){
+    for(int nums=1; nums<=10; nums ++){
+        System.out.println("the multipation is "  + numm + "*" + nums + "=" + numm*nums);
+       
+    }
+    
+
             }
+}
 }

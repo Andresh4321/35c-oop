@@ -105,17 +105,41 @@ switch (operator) {
         break;
 }
 scan1.close();
-}
-}
-
 /* 
 3. Write a Java program that takes an integer input (1 to 12) representing a month and prints the corresponding season (e.g., 1-3: Winter, 4-6: Spring, 7-9: Summer, 10-12: Fall) using a switch case.
 */
+Scanner goo=new Scanner(System.in);
+int word=goo.nextInt();
+switch (word) {
+    case 1:
+    System.out.println("winter");
+        
+        break;
+        case 2:
+        System.out.println("summmer");
+        break;
+        case 3:
+        System.out.println("autumn");
+        break;
 
-
+        case 4:
+        System.out.println("spring");
+        break;
+    default:
+        break;
+}
+goo.close();
 
 /* 
 4. Implement a Java program that calculates the area of different shapes (circle, rectangle, square, triangle) based on the user's choice using a switch case.
 */
+}
+}
+
+
+
+
+
+
 
 
